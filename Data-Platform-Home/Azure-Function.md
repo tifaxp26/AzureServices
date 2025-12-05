@@ -1,0 +1,1 @@
+![AzureFunction.png](/.attachments/AzureFunction-700fb91b-7eb0-4137-90b2-63ea33f03970.png)

@@ -1,0 +1,1 @@
+![SAP_RFC_DATA_FLOW_DIAGRAM (1).png](/.attachments/SAP_RFC_DATA_FLOW_DIAGRAM%20(1)-a39fb8c3-6108-4a57-a72c-ec9dff438335.png)
