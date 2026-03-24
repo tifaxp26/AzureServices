@@ -11,7 +11,8 @@ https://learn.microsoft.com/zh-tw/azure/aks/concepts-storage
 - 儲存類別
 - 永續性磁碟區宣告
 
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/aks/media/concepts-storage/aks-storage-options.png"  alt="Azure Kubernetes Service (AKS) 叢集中的應用程式適用的儲存體選項"/>
+Azure Kubernetes Service (AKS) 叢集中的應用程式適用的儲存體選項
+![image.png](/.attachments/image-c5fc8adc-2f4d-491c-8afb-e4c270dfbc36.png)
 
 
 
@@ -50,7 +51,10 @@ https://learn.microsoft.com/zh-tw/azure/aks/concepts-storage
 磁碟區會定義並建立為 Pod 生命週期的一部分，且在 Pod 刪除後就不會存在。 如果 Pod 在維護事件期間 (尤其是在 StatefulSet 中) 重新排程於不同的主機上，Pod 通常會預期其儲存體能持續保存。 永續性磁碟區 (PV) 是由 Kubernetes API 建立和管理的儲存體資源，可跨個別 Pod 的存留期持續保存。
 
 您可以使用Azure 磁片或Azure 檔案儲存體來提供 PersistentVolume。 如先前關於磁碟區章節所說明，應選擇 Azure 資料箱磁碟或是檔案儲存體，通常取決於資料是否同時存取或是效能層級的需求。
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/aks/media/concepts-storage/persistent-volumes.png"  alt="Azure Kubernetes Service (AKS) 叢集中的永續性磁碟區"/>
+
+Azure Kubernetes Service (AKS) 叢集中的永續性磁碟區"
+![persistent-volumes.png](/.attachments/persistent-volumes-5aeb91ed-b072-4ede-a5e9-a8d1904b6218.png)
+
 
 叢集管理員可以 以靜態方式 建立 PersistentVolume，或由 Kubernetes API 伺服器 動態 建立磁片區。 如果已排程 Pod 並要求目前無法使用的儲存體，Kubernetes 可以建立基礎 Azure 磁片或檔案儲存體，並將其連結至 Pod。 動態佈建會使用 StorageClass 來識別需要建立的 Azure 儲存體類型。
 
@@ -61,7 +65,8 @@ PersistentVolumeClaim 會要求特定 StorageClass、存取模式和大小的儲
 
 在磁碟區連線至 Pod 後，Pod 定義即會包含磁碟區掛接。
 
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/aks/media/concepts-storage/persistent-volume-claims.png"  alt="Azure Kubernetes Service (AKS) 叢集中的永續性磁碟區宣告"/>
+Azure Kubernetes Service (AKS) 叢集中的永續性磁碟區宣告
+![persistent-volume-claims.png](/.attachments/persistent-volume-claims-60bec5dc-dea6-425d-a830-68c0b180e2db.png)
 
 可用的儲存體資源一經指派給發出要求的 Pod 後，PersistentVolume 就會繫結至 PersistentVolumeClaim。 永續性磁碟區是對應至宣告的 1:1。
 
@@ -101,3 +106,4 @@ az aks update --enable-file-driver -n WalsinAKSTest01 -g rg-walsin-developmdent
 
 ## 停用現有 AKS 叢集上的 CSI 驅動程式
 `az aks update --disable-blob-driver -n WalsinAKSTest01 -g rg-walsin-development`
+

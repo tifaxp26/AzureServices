@@ -11,8 +11,8 @@ AKS 叢集可以透過下列方式進行調整：
 ## 垂直 Pod 自動調整程式 （預覽） 
 會根據過去的使用量，自動設定每個工作負載容器的資源要求和限制，以確保 Pod 排程到具有所需 CPU 和記憶體資源的節點。
 
-
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/aks/media/autoscaler/cluster-autoscaler.png"  alt="Screenshot of how the cluster autoscaler and horizontal pod autoscaler often work together to support the required application demands."/>
+Screenshot of how the cluster autoscaler and horizontal pod autoscaler often work together to support the required application demands.
+![cluster-autoscaler.png](/.attachments/cluster-autoscaler-94e37273-41ca-4b25-a9c4-a20f265a9ec2.png)
 
 
 ![image.png](/.attachments/image-24ce5e01-873c-4bf3-a92f-0df0c57491ca.png)

@@ -4,7 +4,8 @@
 # Azure 防火牆原則規則集
 防火牆原則是最上層資源，其中包含 Azure 防火牆的安全性和操作設定。 您可以使用防火牆原則來管理 Azure 防火牆用來篩選流量的規則集。 防火牆原則會根據具有下列元件的階層來組織、排定優先順序及處理規則集：規則集合群組、規則集合和規則。
 
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/firewall/media/policy-rule-sets/policy-rule-sets.png"  alt="Azure 原則 規則集階層"/>
+Azure 原則 規則集階層
+![image.png](/.attachments/image-332c1481-0278-4805-aa94-86f70e68b67f.png)
 
 # 規則集合群組
 規則集合群組是用來將規則集合分組。 它們是防火牆處理的第一個單位，而且會根據值遵循優先順序。 有三個預設規則集合群組，且其優先順序值設計成預設。 它們的處理順序如下：

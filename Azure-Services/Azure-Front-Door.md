@@ -176,8 +176,13 @@ Azure Front Door Standard/Premium 根據下列定價維度計費:​
 - 設定來源 origin groups
 - 來源類型: 自訂
 - 主機名稱: APGW 外部IP
-- 名稱驗證: 停用
+- 來源主機標頭: 系統域名
+- 憑證主體名稱驗證: 停用
 
+**新版設定**
+![image.png](/.attachments/image-8908db31-daa4-4250-926e-69c96e5ecdf5.png)
+
+**舊版設定**
 ![image.png](/.attachments/image-2a593a81-5a07-4e64-9184-3d6fc636efb6.png)
 
 

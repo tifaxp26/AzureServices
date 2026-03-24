@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-<IMG  src="https://learn.microsoft.com/zh-tw/azure/firewall-manager/media/overview/trusted-security-partners.png"  alt="firewall-manager"/>
+![image.png](/.attachments/image-057d5b73-3b7d-46d1-af22-b83fcf5f0af0.png)
 
 # IP Groups
 ## 建立IP群組
@@ -107,6 +107,7 @@ ifconfig.me
 如果有AKS 服務，此Policy要暫時停用，才能設定AKS Subnet
 
 管理群組 > policy > 豁免
+![image.png](/.attachments/image-6c297d48-e85a-40a8-abe4-1fbf870de2d1.png)
 ![image.png](/.attachments/image-c704fd8f-00f3-4fa3-8b35-b0ef3d086a52.png)
 
 移除豁免
