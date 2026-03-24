@@ -63,6 +63,24 @@ SKU (定價層): 進階 premium
 金鑰類型: RSA-HSM
 RSA 金鑰大小: 2048
 
+----------
+# 憑證更新作業
+## 憑證匯入
+- 選擇金鑰庫服務: akv-walsin
+- 選擇憑證
+![image.png](/.attachments/image-54974db3-91c2-489c-b160-c76249adb236.png)
+
+- 建立
+![image.png](/.attachments/image-9ca7110b-2a86-4002-8936-d02de7f755e5.png)
+
+- 選匯入
+- 選.pfx憑證檔案
+- 輸入密碼
+![image.png](/.attachments/image-7e8d085a-a98e-4456-bc73-b1fa57d92460.png)
+
+- 完成匯入
+![image.png](/.attachments/image-e276293f-5e88-4b0a-9a55-0a1ddf3049f2.png)
+
 
 
 
